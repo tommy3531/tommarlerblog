@@ -1,6 +1,6 @@
 ---
-title: 'Misplaced Middleware in Express'
-tags: ["nodejs", "express"]
+title: 'Add Query Parameters to controller action'
+tags: ["c#", "express"]
 published: true
 date: '2018-12-29'
 ---
