@@ -2,9 +2,8 @@ import React from "react"
 import {
     FaLinkedin,
     FaGithubSquare,
-    FaStackOverflow,
-    FaFreeCodeCamp,
-    FaTwitterSquare
+    FaTwitterSquare,
+    FaMedium
 } from "react-icons/fa"
 import "./sidebar.css"
 
@@ -22,6 +21,12 @@ const SocialLinks = ({ contacts }) => {
                 href={contacts.github}>
                 <span title="GitHub">
                     <FaGithubSquare size={26} style={{ color: "secondary" }} />
+                </span>
+            </a>
+            <a className="text-secondary p-2"
+                href={contacts.medium}>
+                <span title="Medium">
+                    <FaMedium size={26} style={{ color: "secondary" }} />
                 </span>
             </a>
             <a className="text-secondary p-2"

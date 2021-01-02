@@ -24,16 +24,10 @@ const MobileSocialLinks = ({ contacts }) => {
                     <FaGithubSquare size={26} style={{ color: "light" }} />
                 </span>
             </a>
-            <a className="text-warning"
-                href={contacts.stackoverflow}>
-                <span title="Stack Overflow">
-                    <FaStackOverflow size={26} style={{ color: "warning" }} />
-                </span>
-            </a>
-            <a className="text-success"
-                href={contacts.freecodecamp}>
-                <span title="freeCodeCamp">
-                    <FaFreeCodeCamp size={26} style={{ color: "success" }} />
+            <a className="text-secondary p-2"
+                href={contacts.medium}>
+                <span title="Medium">
+                    <FaMedium size={26} style={{ color: "secondary" }} />
                 </span>
             </a>
             <a className="text-info"
