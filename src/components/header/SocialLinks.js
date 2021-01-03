@@ -2,8 +2,7 @@ import React from "react"
 import {
     FaLinkedin,
     FaGithubSquare,
-    FaStackOverflow,
-    FaFreeCodeCamp,
+    FaMedium,
     FaTwitterSquare
 } from "react-icons/fa"
 
@@ -21,6 +20,12 @@ const SocialLinks = ({ contacts }) => {
                 href={contacts.github}>
                 <span title="GitHub">
                     <FaGithubSquare size={40} style={{ color: "light" }} />
+                </span>
+            </a>
+            <a className="text-light ml-4"
+                href={contacts.medium}>
+                <span title="Medium">
+                    <FaMedium size={40} style={{ color: "light" }} />
                 </span>
             </a>
             <a className="text-info ml-4"
